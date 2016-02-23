@@ -5,6 +5,21 @@
 <title>Cirych's site</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='css/style.css' rel='stylesheet' type='text/css'>
+
+<script src="app/bundle.js"></script>
+
+<script>
+      System.config({
+        packages: {        
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
 </head>
 <body>
 <h3>
@@ -12,5 +27,6 @@ Yeah! Well, I'm gonna go build my own theme site.<br />
 With full-stack and sockets! In fact, forget the site!
 </h3>
 <img id="logo" src="media/cirych.svg" />
+<my-app>Loading...</my-app>
 </body>
 </html>
