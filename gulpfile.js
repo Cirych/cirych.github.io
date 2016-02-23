@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
 var bundle = [
-    'node_modules/es6-shim/es6-shim.min.js',
+    //'node_modules/es6-shim/es6-shim.min.js',
     'node_modules/systemjs/dist/system-polyfills.js',
     'node_modules/angular2/bundles/angular2-polyfills.js',
     'node_modules/systemjs/dist/system.src.js',
