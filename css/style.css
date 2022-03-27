@@ -1,6 +1,13 @@
 body {
-text-align: center;
+  text-align: center;
 }
 #logo {
-max-height:50vh;
+  max-height: 50vh;
+  min-height: 150px;
+}
+footer {
+  margin: 50px;
+}
+footer img {
+  width: 200px;
 }

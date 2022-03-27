@@ -5,8 +5,9 @@
   "homepage": "https://cirych.github.io",
   "private": true,
   "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.6.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cirych/cirych.github.io.git"
