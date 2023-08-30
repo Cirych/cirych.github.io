@@ -9,7 +9,7 @@ const plugins = [withBundleAnalyzer];
 const nextConfig = {
   // output: 'standalone',
   output: 'export', // static
-  // distDir: 'docs', // GitHub
+  distDir: 'docs', // GitHub
   poweredByHeader: false,
   images: {
     formats: ['image/avif', 'image/webp'],
